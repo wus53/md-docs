@@ -11,19 +11,12 @@ Uniswap V2 is divided into two components: **Core** and **Periphery**. The core 
 ### UML of the project
 - Uniswap V2 Core UML:
 
-![uml-core](https://user-images.githubusercontent.com/118578313/217465255-b84e7724-c1b5-4052-8a4b-7789deb4c4ce.svg)
+![core-uml](https://user-images.githubusercontent.com/118578313/218008515-befda733-dede-456c-ba1f-518cffa884b3.svg)
 
-- Uniswap V2 Core Inheritance UML:
-  
-![inheritance-core](https://user-images.githubusercontent.com/118578313/217465321-a6cba7ce-d760-4983-a2cd-c656dc2570c8.svg)
 
 - Uniswap V2 Periphery UML:
 
-![uml-periphery](https://user-images.githubusercontent.com/118578313/217465441-db8b54e8-0f87-4139-b501-6956e0b007b5.svg)
-
-- Uniswap V2 Periphery Inheritance UML:
-
-![inheritance-periphery](https://user-images.githubusercontent.com/118578313/217465489-ddfe685b-0f14-4406-81d6-5e34b1ac6f94.svg)
+![periphery-uml](https://user-images.githubusercontent.com/118578313/218008525-0cb27c2f-d67f-4ff5-9e54-4d9ddb05dd85.svg)
 
 ### Use Cases
 
@@ -32,7 +25,6 @@ There are two main use cases for Uniswap V2:
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QC-dT9XnjUp5d6k45pND8g.jpeg)
 
 Image Source: https://medium.com/@chiqing/uniswap-v2-explained-beginner-friendly-b5d2cb64fe0f
-
 
 **1. Adding & Removing Liquidity**
   - The control flow of [removing liquidity](https://github.com/Uniswap/v2-periphery/blob/master/contracts/UniswapV2Router02.sol#L103) is basically the same as adding liquidity, so I will only walk through ***Adding Liquidity*** here.
@@ -257,7 +249,7 @@ The information provided in this document is provided solely for educational pur
 ## Credits
 
 - [UNISWAP-V2 CONTRACT WALK-THROUGH](https://ethereum.org/en/developers/tutorials/uniswap-v2-annotated-code/)
-- [Solidity Visual Developer VS Code Extension](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
+- [Solidity 2 UML package (sol2uml)](https://www.npmjs.com/package/sol2uml)
 - [Uniswap V2 Core](https://github.com/Uniswap/v2-core)
 - [Uniswap V2 Periphery](https://github.com/Uniswap/v2-periphery)
 - [Martin's Study Notes](https://docs.page/ymart1n/study-notes/UniSwap_AMM_Study)
